@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body background="images/bg14.jpg"> 
+        <div>
+           <!-- <center><h1 style="color:white"> Login </h1></center> -->
+            <div class="login">
+                <form action="login.jsp" target="frame">
+                 <center>
+                    <caption style="font-size:35px;font-family:cursive;text-align:center"> Login Form </caption>
+                    <table cellpadding="5px" cellspacing="5px">
+                        <tr></tr>
+                        <tr><td>User name</td><td><input type="text" placeholder="user name" name="uname" required ></td></tr>
+                        <tr><td>Password</td><td><input type="password" placeholder="Password" name="pass" showPassword="true" required="[A-Za-z0-9]{min7max13}"></td></tr>
+ 
+                        <tr></tr>
+                        <tr><td><input type="checkbox" name="remember" />Remember me </tr>
+                        <tr><td></td><td><input type="submit" value="Login" name="login"  style="width:60px;height:40px;font-size:18px"/></tr>
+                        <tr> <td></td> <td></td> <td><a href="forget.html">Forget Password </a> </td> </tr>
+                    </table>
+                 </center>
+                </form>                
+            </div>            
+        </div>
+</html>

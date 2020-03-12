@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Signup</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="body" background="images/bg14.jpg"> 
+        <div class="header">
+            <h1 style="text-align:center;color: blue">SignUp</h1>
+            <div style="font-size:20px;color: blue">
+                <form action="sign.jsp" method="post">
+                    <center>
+                    <table  cellpadding="5px" cellspacing="8px"> 
+                        <tr><td>First Name</td><td><input type="text" placeholder="first name" name="fname" required ></td></tr>
+                        <tr><td>Last Name</td><td><input type="text" placeholder="last name" name="lname" required ></td></tr>
+                        <tr><td>Email-ID</td><td><input type="email" placeholder="email-id" name="email" required ></td></tr>
+                        <tr><td>Password</td><td><input type="password" placeholder="minimum 8 maximum 13" name="pwd" required pattern="[A-Za-z0-9]"></td></tr>
+                        <tr><td>skills</td><td><input type="text" placeholder="skill" name="skill" required ></td></tr> 
+                        <tr><td></td><td><input type="submit" value="submit" name="submit" style="width:90px;height:25px;text-size:20px"></td></tr>
+                    </table>
+                    </center>
+               </form>               
+            </div>            
+        </div>
+    </body>
+</html>
